@@ -13,13 +13,13 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         PluginManager pm = getServer().getPluginManager();
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + NAME + "Is enabled!");
+        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + NAME + "is enabled!");
         pm.registerEvents(new DispenserFix(this),this);
         pm.registerEvents(new FallingEntityFix(this), this);
     }
 
     @Override
     public void onDisable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.RED + NAME + "Is disabled!");
+        getServer().getConsoleSender().sendMessage(ChatColor.RED + NAME + "is disabled!");
     }
 }
