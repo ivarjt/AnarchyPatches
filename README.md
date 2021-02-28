@@ -4,6 +4,7 @@ AnarchyPatches is a 1.14.4 Spigot plugin for Anarchy Servers.
 ## Usage
 Compile the plugin using Intellij IDEA, or download the latest release.
 Add the .jar file in your servers plugins folder.
+
 Preferably restart the server but you can also do  /reload confirm 
 
 ## Features
