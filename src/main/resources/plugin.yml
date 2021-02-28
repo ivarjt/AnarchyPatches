@@ -1,0 +1,5 @@
+name: Fixes
+version: ${project.version}
+main: me.epik.fixes.Main
+api-version: 1.14
+authors: [ epik ]
